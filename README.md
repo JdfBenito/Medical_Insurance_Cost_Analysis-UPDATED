@@ -26,9 +26,11 @@ The program is used to calculate insurance costs for:
 - Joan
 
 For example:
+
 maria_insurance_cost = calculate_insurance_cost("Maria", 28, 0, 26.2, 3, 0)
 
 The same function can then be reused with different values:
+
 omar_insurance_cost = calculate_insurance_cost("Omar", 35, 1, 22.2, 0, 1)
 
 joan_insurance_cost = calculate_insurance_cost("Joan", 18, 1, 24.9, 0, 0)
@@ -50,9 +52,11 @@ This project helped me practise the following Python concepts:
 
 # Insurance Cost Formula
 The function uses a formula similar to:
+
 estimated_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
 
 The calculated value is then returned:
+
 return(estimated_cost)
 
 # Technologies:
